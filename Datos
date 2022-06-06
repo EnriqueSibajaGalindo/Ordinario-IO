@@ -3,14 +3,16 @@ package Asignacion;
  *
  * @author enriq
  */
-public class DatosAsignacion {
+public class DatosAsignacion 
+{
     private String costo;
     private boolean rayado;
     private boolean dobleRayado;
     private boolean asignado;
     private boolean colorea;
 
-    public DatosAsignacion(String costo) {
+    public DatosAsignacion(String costo) 
+    {
         this.costo = costo;
         this.rayado = false;
         this.dobleRayado = false;
@@ -18,43 +20,53 @@ public class DatosAsignacion {
         this.colorea = false;
     }
 
-    public String getCosto() {
+    public String getCosto() 
+    {
         return costo;
     }
 
-    public void setCosto(String costo) {
+    public void setCosto(String costo) 
+    {
         this.costo = costo;
     }
 
-    public boolean isRayado() {
+    public boolean isRayado() 
+    {
         return rayado;
     }
 
-    public void setRayado(boolean rayado) {
+    public void setRayado(boolean rayado) 
+    {
         this.rayado = rayado;
     }
 
-    public boolean isDobleRayado() {
+    public boolean isDobleRayado() 
+    {
         return dobleRayado;
     }
 
-    public void setDobleRayado(boolean dobleRayado) {
+    public void setDobleRayado(boolean dobleRayado) 
+    {
         this.dobleRayado = dobleRayado;
     }
 
-    public boolean isAsignado() {
+    public boolean isAsignado() 
+    {
         return asignado;
     }
 
-    public void setAsignado(boolean asignado) {
+    public void setAsignado(boolean asignado) 
+    {
         this.asignado = asignado;
     }
 
-    public boolean isColorea() {
+    public boolean isColorea() 
+    {
         return colorea;
     }
 
-    public void setColorea(boolean colorea) {
+    public void setColorea(boolean colorea) 
+    {
         this.colorea = colorea;
     }   
 }
