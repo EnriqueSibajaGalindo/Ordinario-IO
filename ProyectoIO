@@ -1,0 +1,22 @@
+package proeyectoio;
+
+import Guis.GuiAsignacion;
+import Guis.GuiInicio;
+
+/**
+ *
+ * @author enriq
+ */
+public class ProeyectoIO 
+{
+    public static void main(String[] args) 
+    {
+      java.awt.EventQueue.invokeLater(new Runnable()
+      {
+        public void run() 
+        {
+          new GuiInicio().setVisible(true);
+         }
+       }
+    }
+}
